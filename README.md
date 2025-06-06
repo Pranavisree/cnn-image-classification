@@ -38,3 +38,25 @@ Each model is trained and evaluated on the CIFAR-10 dataset with performance tra
    ```bash
    git clone https://github.com/Pranavisree/cnn-image-classification.git
    cd cnn-image-classification
+
+2. Navigate to the project directory:
+
+bash
+Copy
+Edit
+cd cnn-image-classification
+3. Install the required dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+4. Place your dataset in the appropriate directories (train/ and test/).
+
+5. Run the training script:
+
+bash
+Copy
+Edit
+python train_model.py
+
