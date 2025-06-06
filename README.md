@@ -43,9 +43,10 @@ cd cnn-image-classification
 # Step 3: Install the required dependencies
 pip install -r requirements.txt
 
-# Step 4: Place your dataset inside the directories named 'train/' and 'test/' respectively,
-# ensuring the folder structure matches the classes of your images
+# Step 4: Download CIFAR-10 dataset (if not done automatically)
+# (You can remove this step if your code downloads it automatically)
+python download_cifar10.py  # (if you have such a script)
 
-# Step 5: Run the training script to train your CNN model
+# Step 5: Run the training script
 python train_model.py
 
